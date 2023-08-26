@@ -5,14 +5,22 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
+  /* Widths */
   --column-width: 384px;
   --page-margin: 60px;
   --page-width: calc(1200px + (var(--page-margin) * 2));
 
+  /* Spacing */
   --spacing-s: 12px;
   --spacing-base: 16px;
   --spacing-m: 20px;
   --spacing-l: 24px;
+  --spacing-xl: 32px;
+
+  /* Colors */
+  --dark-bg: #0e1414;
+  --white: #fff;
+  --red: #c11430;
 }
 
 @font-face {
@@ -35,12 +43,12 @@ html {
 }
 
 body {
-  background-color: #0e1414;
+  background-color: var(--dark-bg);
   color: #fff;
   min-height: 100vh;
 
   font-family: 'OpenSans-Light', sans-serif;
-  line-height: 1.2;
+  line-height: 1.75;
   font-weight: 400;
   font-size: 16px;
 }
@@ -52,5 +60,5 @@ img {
 .container {
   max-width: var(--page-width);
   margin: 0 auto;
-  padding: 200px var(--page-margin);
+  padding: 180px var(--page-margin);
 }
