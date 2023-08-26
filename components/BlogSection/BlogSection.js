@@ -31,7 +31,7 @@ export const BlogSection = () => {
                         <h2>Taking Taste Further</h2>
                         <p>
                             This exclusive cookbook gives you all the know-how you need. We've designed it to make sure you get the most out of our products — 
-                            and the best out of your food
+                            and the best out of your food.
                         </p>
                     </div>
                     <span>READ MORE</span>

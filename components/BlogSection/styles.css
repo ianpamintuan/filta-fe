@@ -54,7 +54,12 @@
 }
 
 @media screen and (max-width: 767px) {
+  .blog {
+    margin-top: calc(var(--spacing-xl) * 2);
+  }
+
   .blog__container {
     flex-direction: column;
+    gap: var(--spacing-xl);
   }
 }

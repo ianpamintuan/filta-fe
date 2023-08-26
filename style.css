@@ -69,3 +69,13 @@ p {
   margin: 0 auto;
   padding: 180px var(--page-margin);
 }
+
+@media screen and (max-width: 767px) {
+  :root {
+    --page-margin: var(--spacing-base);
+  }
+
+  .container {
+    padding: calc(var(--spacing-xl) * 2) var(--page-margin);
+  }
+}
