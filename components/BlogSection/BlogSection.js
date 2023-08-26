@@ -5,7 +5,7 @@ export const BlogSection = () => {
         <section class="blog">
             <h1>ALL THE LATEST FROM AEG</h1>
             <div class="blog__container">
-                <a class="blog__item" href="#">
+                <a class="blog__item" href="#" onclick="event.preventDefault(); console.log(this);">
                     <img src="/img/blog/Image-01.jpg" alt="Summer Lunch Menu" srcSet="/img/gallery/Image-01@2x.jpg 2x" />
                     <div>
                         <h2>Summer Lunch Menu by Mark Best</h2>
@@ -15,7 +15,7 @@ export const BlogSection = () => {
                     </div>
                     <span >READ MORE</span>
                 </a>
-                <a class="blog__item" href="#">
+                <a class="blog__item" href="#" onclick="event.preventDefault(); console.log(this);">
                     <img src="/img/blog/Image-02.jpg" alt="A Traditional Christmas Eve" srcSet="/img/gallery/Image-02@2x.jpg 2x" />
                     <div>
                         <h2>A Traditional Christmas Eve, Mark Best Style</h2>
@@ -25,7 +25,7 @@ export const BlogSection = () => {
                     </div>
                     <span>READ MORE</span>
                 </a>
-                <a class="blog__item" href="#">
+                <a class="blog__item" href="#" onclick="event.preventDefault(); console.log(this);">
                     <img src="/img/blog/Image-03.jpg" alt="Taking Taste Further" srcSet="/img/gallery/Image-03@2x.jpg 2x" />
                     <div>
                         <h2>Taking Taste Further</h2>
