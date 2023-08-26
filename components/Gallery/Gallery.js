@@ -1,7 +1,8 @@
 import './styles.css';
 
 export const Gallery = () => {
-  return `<section class="gallery">
+  return `
+    <section class="gallery">
         <div class="gallery__item">
             <img src="/img/gallery/Image-01.jpg" srcSet="/img/gallery/Image-01@2x.jpg 2x" alt="Man holding a child's hand" />
         </div>
