@@ -21,6 +21,7 @@
   --dark-bg: #0e1414;
   --white: #fff;
   --red: #c11430;
+  --gray: #888a8a;
 }
 
 @font-face {
@@ -55,6 +56,11 @@ body {
 
 img {
   width: 100%;
+  max-width: 100%;
+}
+
+p {
+  margin: 0;
 }
 
 .container {
