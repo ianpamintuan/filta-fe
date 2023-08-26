@@ -1,0 +1,15 @@
+.gallery {
+  display: flex;
+  gap: var(--spacing-l);
+}
+
+.gallery__item {
+  flex-basis: 33.33%;
+  /* flex-basis: 384px; */
+}
+
+.multiImageCol {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-m);
+}
