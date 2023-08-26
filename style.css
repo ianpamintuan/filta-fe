@@ -52,5 +52,5 @@ img {
 .container {
   max-width: var(--page-width);
   margin: 0 auto;
-  padding: 0 var(--page-margin);
+  padding: 200px var(--page-margin);
 }
