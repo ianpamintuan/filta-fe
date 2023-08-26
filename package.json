@@ -6,9 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "husky install"
   },
   "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "3.0.2",
     "vite": "^4.4.5"
+  },
+  "lint-staged": {
+    "**/*.js": "prettier --write --ignore-unknown"
   }
 }
